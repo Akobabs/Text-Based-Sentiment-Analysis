@@ -22,9 +22,9 @@ We use the widely known **Sentiment140** dataset with 1.6 million labeled tweets
 🔗 [Download on Kaggle → Sentiment140 Dataset](https://www.kaggle.com/kazanova/sentiment140)
 
 📁 After downloading, rename and place the file as:
-\`\`\`
+```
 data/sentiment140.csv
-\`\`\`
+```
 
 ---
 
@@ -60,75 +60,75 @@ sentiment_analysis_project/
 ### 💻 Installation Steps
 
 1. **Clone this repo**:
-\`\`\`bash
+```bash
 git clone https://github.com/Akobabs/Text-Based-Sentiment-Analysis.git
 cd sentiment_analysis_project
-\`\`\`
+```
 
 2. **Set up Python virtual environment**:
-\`\`\`bash
+```bash
 python -m venv venv
 # Windows
 .\venv\Scripts\activate
 # macOS/Linux
 source venv/bin/activate
 pip install -r requirements.txt
-\`\`\`
+```
 
 3. **Download NLTK resources**:
-\`\`\`python
+```python
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
-\`\`\`
+```
 
 4. **Install frontend dependencies**:
-\`\`\`bash
+```bash
 cd frontend
 npm install
-\`\`\`
+```
 
 5. **Download and prepare the dataset**:
-- Download: \`training.1600000.processed.noemoticon.csv\`
-- Save as: \`data/sentiment140.csv\`
+- Download: `training.1600000.processed.noemoticon.csv`
+- Save as: `data/sentiment140.csv`
 
 6. **Preprocess the dataset**:
-\`\`\`bash
+```bash
 python src/preprocessing.py
-\`\`\`
+```
 
 7. **Train the SVM model**:
-\`\`\`bash
+```bash
 python src/train.py
-\`\`\`
+```
 
 ---
 
 ## ▶️ Running the App
 
 ### 🔙 Start the Flask Backend
-\`\`\`bash
+```bash
 python src/app.py
-\`\`\`
-Runs on: \`http://127.0.0.1:5000\`
+```
+Runs on: `http://127.0.0.1:5000`
 
 ### 🔜 Start the React Frontend
-\`\`\`bash
+```bash
 cd frontend
 npm start
-\`\`\`
-Runs on: \`http://localhost:3000\`
+```
+Runs on: `http://localhost:3000`
 
 ---
 
 ## 🌐 Usage
 
-1. Open your browser at \`http://localhost:3000\`
+1. Open your browser at `http://localhost:3000`
 2. Type a sentence like:  
-   \`"I love this movie!"\` 🎬  
+   `"I love this movie!"` 🎬  
    or  
-   \`"I am not happy about this."\` 😞
+   `"I am not happy about this."` 😞
 3. Hit **Analyze** and watch the magic happen ✨  
    You'll see the **sentiment** !
 
