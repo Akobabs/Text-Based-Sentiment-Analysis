@@ -1,3 +1,4 @@
+---
 # 🎯 Text-Based Sentiment Analysis with NLP & Machine Learning
 
 Welcome to **Text-Based Sentiment Analysis**, a powerful and interactive web app that analyzes text and predicts whether it's **Positive** 😊 or **Negative** 😡 using state-of-the-art **Natural Language Processing (NLP)** and **Machine Learning (ML)** techniques.
@@ -172,10 +173,10 @@ Licensed under the [MIT License](LICENSE).
 ## 💬 Contributing
 
 Found a bug 🐞? Have a suggestion 💡?  
-Feel free to [open an issue](https://github.com/yourusername/sentiment-analysis/issues) or submit a PR!  
+Feel free to [open an issue](https://github.com/Akobabs/Text-Based-Sentiment-Analysis/issues) or submit a PR!  
 Let’s make sentiment smarter — together!
 
 ---
 
-> Built with ☕ and 💻 by [ADEMOLA, Akorede A.](https://github.com/yourusername)
-EOF
+> Built with ☕ and 💻 by [ADEMOLA, Akorede A.](https://github.com/Akobabs)
+---
