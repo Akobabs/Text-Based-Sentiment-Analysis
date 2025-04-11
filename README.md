@@ -61,7 +61,7 @@ sentiment_analysis_project/
 
 1. **Clone this repo**:
 \`\`\`bash
-git clone https://github.com/yourusername/Text-Based-Sentiment-Analysis.git
+git clone https://github.com/Akobabs/Text-Based-Sentiment-Analysis.git
 cd sentiment_analysis_project
 \`\`\`
 
