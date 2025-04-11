@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # 🎯 Text-Based Sentiment Analysis with NLP & Machine Learning
 
 Welcome to **Text-Based Sentiment Analysis**, a powerful and interactive web app that analyzes text and predicts whether it's **Positive** 😊 or **Negative** 😡 using state-of-the-art **Natural Language Processing (NLP)** and **Machine Learning (ML)** techniques.
@@ -31,7 +30,7 @@ data/sentiment140.csv
 
 ## 🧱 Project Structure
 
-\`\`\`
+```
 sentiment_analysis_project/
 ├── src/
 │   ├── preprocessing.py       # Preprocess the dataset
@@ -47,7 +46,7 @@ sentiment_analysis_project/
 │   └── negative_sentiment.png
 ├── requirements.txt           # Python dependencies
 └── README.md
-\`\`\`
+```
 
 ---
 
